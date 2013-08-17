@@ -1,0 +1,20 @@
+package tfc.princeton.server.main;
+
+import java.io.IOException;
+import java.net.ServerSocket;
+
+import tfc.princeton.server.constants.RestActionConstants;
+
+public class MainRestServer {
+
+	
+	public static void main(String[] args) {
+		ServerSocket listening;
+		try {
+			listening = new ServerSocket();  //Server socket. TODO -- fill in args
+ 
+        } catch (IOException e) {
+            System.out.println("Could not listen on port: " + RestActionConstants.PORT_NUMBER);
+        }
+	}
+}

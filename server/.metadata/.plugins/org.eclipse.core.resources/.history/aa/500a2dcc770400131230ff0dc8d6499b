@@ -1,0 +1,5 @@
+package tfc.princeton.server.constants;
+
+public class RestActionConstants {
+
+}
